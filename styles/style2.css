@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box h1{
+    width: 50%;
+    color: #363940;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+}
+.box p{
+    width: 40%;
+    color: #95A1BB;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+.box-main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.box-main-main{
+    width: 22%;
+    height: 55vh;
+    display: flex;
+    border: 1px solid #E1E5EE;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+.box-main-main1{
+    width: 22%;
+    height: 55vh;
+    display: flex;
+    border: 1px solid #E1E5EE;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 8px;
+    position: relative;
+    border-color: #6E38F7;
+}
+.box-main-table{
+    width: 100%;
+    text-align: center;
+
+}
+.box-main-table tr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.box-main-table th{
+    font-size: 18px;
+    line-height: 22px;
+    color: #363940;
+}
+.box-main-table th span{
+    font-size: 40px;
+    color: #95A1BB;
+}
+.box-main-table th b{
+    font-size: 40px;
+    color: #363940;
+}
+.box-main-table td{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #363940;
+    text-align: center;
+
+}
+.box-btn{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.box-btn button{
+    width: 70%;
+    height: 40px;
+    border: 1px solid #6E38F7;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;  
+    letter-spacing: 2px; 
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #6E38F7;
+    cursor: pointer;
+}
+.box-btn2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-btn2 button{
+    width: 70%;
+    height: 40px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;  
+    letter-spacing: 2px; 
+    text-align: center;
+    background-color: #6E38F7;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.position-btn{
+    position: absolute;
+    top: -20px;
+    left: 50px;
+}
+.position-btn button{
+    height: 40px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;  
+    letter-spacing: 2px; 
+    text-align: center;
+    background-color: #6E38F7;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}

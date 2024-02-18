@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.box h1{
+    width: 15%;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #363940;
+}
+.box p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #95A1BB;
+    text-align: center;
+}
+.box-table{
+    width: 60%;
+    height: 55%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.box-table th{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #363940;
+}
+.box-table p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #95A1BB;
+    text-align: start;
+    margin: 15px 20px;
+    margin-right: 150px;
+}
+.box-table td{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #363940;
+    text-align: start;
+    padding: 15px 20px;
+}
+.box-table span{
+    color: #6E38F7;
+    text-align: center;
+    margin: 0px 100px;
+}
+.box-table a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+.get-btn{
+    padding: 8px 20px;
+    border-color: #6E38F7;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #6E38F7;
+    background-color: #FFFFFF;
+    margin: 0px 42px;
+}
+.buy-btn{
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #6E38F7;
+    margin: 0px 57px;
+}
